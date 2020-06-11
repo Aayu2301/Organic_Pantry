@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.main-img{
+	width: 100%;
+	height: 80vh;
+	position: relative;
+}
+.p{
+	position: absolute; 
+	z-index: 1; 
+	color: green; 
+	display: inline; 
+	margin-top: 55px;
+	margin-left: 60px;
+	font-size: 20px;
+	font-family: 'Sanchez', serif;
+
+}
+
+.h1{
+	position: absolute; 
+	z-index: 1; 
+	color: green; 
+	font-family: 'Great Vibes', cursive;
+
+	margin-left: 20px;
+	 font-size: 45px;
+}
+
+.nav-item{
+	color: green;
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Sanchez', serif;
+
+
+}
+
+.about-img{
+	width: 900px;
+	padding: 7%,15%;
+	height: 300px;
+	border: solid green 1px;
+}
+
+.footer-title{
+	color: black;
+	font-family: 'Great Vibes', cursive;
+	font-size: 36px;
+	text-decoration: underline;
+	justify-content: center;
+}
+.h4{
+	color: black;
+	font-size: 20px;
+	margin-top: 15px;
+	
+
+}
+.fotter-p{
+	color: black;
+	font-size: 15px;
+	justify-content: center;
+
+
+
+}
+.h3{
+	color: black;
+	line-height: 5rem;
+	font-family: sans-serif;
+
+}
+.a-fotter{
+	text-decoration: none;
+	color: black;
+
+}
+.email-p{
+	font-size: 15px;
+	
+}
+.copy-p{
+	display: flex;
+	justify-content: center;
+	color: black;
+	font-size: 25px;
+	
+	font-family: sans-serif;
+}
+.h3, .h4 , .a-fotter , .copy-p , .email-p , .copy-p , .fotter-p{
+	font-family: 'Sanchez', serif;
+}
+.vedio{
+	width: 800px;
+	height: 400px;
+}
+
+@media max-width: (500px) and min-width: (100px){
+	.vedio{
+		width: 100px;
+		height: 100px;
+	}
+}
